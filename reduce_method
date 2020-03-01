@@ -1,0 +1,17 @@
+function getRating(watchList){
+  // Add your code below this line
+  var totalRating =
+  watchList.filter(item => item.Director = 'Christopher Nolan')
+  .map(function(item) {
+    return item.imdbRating
+  });
+  console.log(totalRating);
+
+  var averageRating =
+  
+
+
+  // Add your code above this line
+  return averageRating;
+}
+console.log(getRating(watchList));
